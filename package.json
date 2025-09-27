@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bun build --target=browser --sourcemap --minify --outdir=public/assets src/client/main.ts src/client/styles.css",
+    "build": "bun build --target=browser --sourcemap --minify --outdir=docs/assets src/client/main.ts src/client/styles.css",
     "start": "bun run src/server.ts",
     "dev": "bun run src/server.ts"
   },

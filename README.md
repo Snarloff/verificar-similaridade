@@ -2,6 +2,8 @@
 
 Aplicação simples para comparar dois textos, destacar trechos similares e exibir métricas de similaridade que fazem sentido para o que é destacado.
 
+<img width="1650" height="1050" alt="image" src="https://github.com/user-attachments/assets/a2277633-8f52-425b-8c16-7c2f6f4c5320" />
+
 ## Como executar
 
 Pré‑requisito: Bun instalado.

@@ -1,10 +1,10 @@
 import { serve } from "bun";
 
-const publicDirUrl = new URL("../public/", import.meta.url);
+const docsDirUrl = new URL("../docs/", import.meta.url);
 
 async function file(pathname: string): Promise<Response> {
-  // Normalize to prevent escaping outside public
-  const url = new URL(pathname, publicDirUrl);
+  // Normalize to prevent escaping outside docs
+  const url = new URL(pathname, docsDirUrl);
   const f = Bun.file(url);
   if (!(await f.exists())) {
     return new Response("Not found", { status: 404 });

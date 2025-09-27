@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "allowJs": false,
+    "resolveJsonModule": true,
+  "types": ["bun-types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/shared/*": ["src/shared/*"]
+    },
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}

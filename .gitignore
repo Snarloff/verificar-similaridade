@@ -1,0 +1,4 @@
+/.vscode
+/bun.lock
+/tsconfig.zip
+/node_modules

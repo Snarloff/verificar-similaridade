@@ -1,0 +1,14 @@
+{
+  "name": "verificar-similaridade",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build --target=browser --sourcemap --minify --outdir=public/assets src/client/main.ts src/client/styles.css",
+    "start": "bun run src/server.ts",
+    "dev": "bun run src/server.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^1.2.22"
+  }
+}
